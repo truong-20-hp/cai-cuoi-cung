@@ -1,0 +1,45 @@
+html{
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+    line-height: 1.2rem;
+    font-size: 62.5%;
+    
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: inherit;
+
+}
+.grid{
+    width: 1135px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid__row{
+    display: flex;
+    margin-left: -12px;
+    margin-right: -12px;
+    flex-wrap: wrap;
+
+}
+.grid__column{
+    width: calc(100% / 3);
+    padding-left: 12px;
+    padding-right: 12px;
+}
+:root{
+    --white-color: #fff;
+    --text-color: #9a9a9a;
+    --border-color: #999;
+    --red-color :#f74141;
+}
+.header__list{
+    position: relative;;
+}
+.header__list:hover .header__sub-list{
+    display: block;
+}
+
